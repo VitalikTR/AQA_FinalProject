@@ -14,10 +14,12 @@
 	"testFiles": "**/*.*",
 	"reporter": "cypress-mochawesome-reporter",
 	"reporterOptions": {
-		"reportDir": "reports",
+		"reportDir": "cypress/test-results/mocha",
 		"charts": true,
 		"reportPageTitle": "Test Suite Vitalik-taf",
 		"embeddedScreenshots": true,
-		"inlineAssets": true
+		"inlineAssets": true,
+		"html": true,
+		"json": true
 	}
 }
